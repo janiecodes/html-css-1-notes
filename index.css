@@ -1,0 +1,64 @@
+body {
+    background-color: pink;
+}
+header {
+    background-color: orange;
+    color: white;
+    height: 15vh;
+    width: 50vw;
+}
+
+header:hover{
+    background-color: white;
+    color: fuchsia;
+}
+
+.greeting {
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#cool-picture {
+    width: 50px;
+}
+
+.movie-list {
+    float: center;
+}
+
+div a {
+    color: white;
+}
+
+.umbrella {
+    background-color: cornflowerblue;
+}
+
+.movie-title {
+    background-color: chartreuse;
+    color: chocolate;
+}
+
+#parasite {
+    background-color: black;
+    color: purple;
+}
+
+button{
+    border-width: 25px;
+    border-color: purple;
+}
+
+.box {
+    height: 100px;
+    width: 80vw;
+    background-color: black;
+    border-radius: 10%;
+    margin: 20px 50px;
+}
+
+.box > div{
+    height: 30%;
+    width: 50%;
+    background-color: yellow;
+}
